@@ -7,6 +7,9 @@ import Greeting from '@/components/Greeting'
 import Mempelai from '@/components/Mempelai'
 import Lokasi from '@/components/Lokasi'
 import Protokol from '@/components/Protokol'
+import Wishes from '@/components/Wishes'
+import Thanks from '@/components/Thanks'
+import Galeri from '@/components/Galeri'
 
 export default function Home() {
   return (
@@ -22,6 +25,9 @@ export default function Home() {
      <Mempelai />
      <Lokasi />
      <Protokol />
+     <Wishes />
+     <Galeri />
+     <Thanks />
     </div>
   )
 }
