@@ -122,7 +122,7 @@ export default function Mempelai() {
 
           <div className="relative flex p-8 justify-center2 items-center2 mx-auto2 max-w-4xl w-9/12 md:w-7/12 rounded-2xl bg-white shadow opacity-90">
             
-            <div className="flex w-full justify-around text-center">
+            <div className="flex w-full justify-around text-center text-black">
               <div className="flex flex-col space-y-1">
                 <span className="text-2xl">104</span>
                 <span className="text-xs font-semibold">Hari</span>
@@ -140,7 +140,7 @@ export default function Mempelai() {
                 <span className="text-xs font-semibold">Detik</span>
               </div>
             </div>
-            <div className="absolute -bottom-5 left-0 right-0 mx-auto w-1/2 bg-[#6a8369] opacity-95 hover:opacity-100 rounded-full cursor-pointer">
+            <div className="absolute -bottom-5 left-0 right-0 mx-auto w-2/3 md:w-1/2 bg-[#6a8369] opacity-95 hover:opacity-100 rounded-full cursor-pointer">
                 <div className="flex py-2 space-x-1 items-center justify-center text-white">
                   
                   <span>
