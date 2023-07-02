@@ -18,11 +18,11 @@ import galeri11 from "@/assets/img/galeri11.jpg"
 export default function Galeri() {
   return (
     <>
-      <section className=" bg-[#f2edea] h-max md:min-h-screen w-full">
-        <div className="py-20 w-full flex justify-center items-center">
-          <div className=" flex  mx-auto max-w-4xl w-9/12 h-96 ">
+      <section className="py-20 flex bg-[#f2edea] overflow-y-auto  md:min-h-screen w-full">
+        <div className=" w-full flex justify-center items-center">
+          <div className="flex  mx-auto max-w-4xl w-9/12 h-96 ">
           
-            <div class="py-2 columns-1 md:columns-3">
+            <div className="py-2 columns-1 md:columns-3">
                 <Image src={galeri1} alt="" className="mb-4 rounded-md cursor-zoom-in" />
                 <Image src={galeri2} alt="" className="mb-4 rounded-md cursor-zoom-in" />
                 <Image src={galeri3} alt="" className="mb-4 rounded-md cursor-zoom-in" />

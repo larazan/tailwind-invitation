@@ -17,13 +17,13 @@ export default function Lokasi() {
         }}
       >
         <div className="min-h-screen py-16 w-full flex flex-col space-y-8 justify-center items-center">
-          <div className="relative flex flex-col space-y-7 p-10 justify-center items-center mx-auto max-w-4xl w-8/12 rounded-2xl bg-white shadow opacity-80">
+          <div className="relative flex flex-col space-y-7 p-10 justify-center items-center mx-auto max-w-4xl w-9/12 md:w-8/12 rounded-2xl bg-white shadow opacity-80">
             <div>
-              <span className="text-3xl text-center font-brittany">
+              <span className="text-3xl text-center font-brittany text-black">
                 Wedding Venue
               </span>
             </div>
-            <div className=" text-center">
+            <div className="text-black text-center">
               <span>
                 Jika anda akan hadir pada pernikahan kami, harap melakukan reservasi pada form RSVP di bawah ini
               </span>
@@ -35,7 +35,7 @@ export default function Lokasi() {
               <div className="absolute -top-5 z-20 "> 
                 <div className="rounded-full bg-white text-gray-600 px-3 py-3 border shadow-lg shadow-pink-500/50">
                     <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
@@ -43,7 +43,7 @@ export default function Lokasi() {
                     </span>
                 </div>
               </div>
-              <div className="flex flex-col py-6 space-y-3 justify-center items-center rounded-2xl w-full bg-white border shadow-lg  opacity-100">
+              <div className="flex flex-col py-6 space-y-3 justify-center items-center rounded-2xl w-full bg-white border shadow-lg  opacity-100 text-black">
                 <span className="text-lg text-center font-brittany">Akad</span>
                 <div className="flex flex-col items-center space-y-1">
                     <span className="text-xs font-semibold">Jumat</span>
@@ -60,10 +60,10 @@ export default function Lokasi() {
                 </div>
               </div>
               <div className="flex flex-col space-y-3 justify-center">
-                <span className="text-sm leading-tight text-center font-semibold">
+                <span className="text-sm leading-tight text-center font-semibold text-black">
                   Rumah Mempelai Wanita
                 </span>
-                <div className="flex flex-col justify-center items-center text-center text-xs leading-tight">
+                <div className="flex flex-col justify-center items-center text-center text-xs leading-tight text-black">
                   <span>Jl. Aries Munandar Gang 1 no 997, Kota Malang</span>
                 </div>
                 <div className="flex items-center justify-center space-x-1 border-2 border-pink-400 bg-pink-400 hover:bg-pink-500 rounded-full px-1 py-1 cursor-pointer">
@@ -75,7 +75,7 @@ export default function Lokasi() {
             <div className="absolute -top-5 z-20 "> 
                 <div className="rounded-full bg-white text-gray-600 px-3 py-3 border shadow-lg shadow-pink-500/50">
                     <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
@@ -83,7 +83,7 @@ export default function Lokasi() {
                     </span>
                 </div>
               </div>
-              <div className="flex flex-col py-6 space-y-3 justify-center items-center rounded-2xl w-full bg-white border shadow-lg  opacity-100">
+              <div className="flex flex-col py-6 space-y-3 justify-center items-center rounded-2xl w-full bg-white border shadow-lg  opacity-100 text-black">
                 <span className="text-lg text-center font-brittany">Resepsi</span>
                 <div className="flex flex-col items-center space-y-1">
                     <span className="text-xs font-semibold">Sabtu</span>
@@ -100,10 +100,10 @@ export default function Lokasi() {
                 </div>
               </div>
               <div className="flex flex-col space-y-3 justify-center">
-                <span className="text-sm leading-tight text-center font-semibold">
+                <span className="text-sm leading-tight text-center font-semibold text-black">
                   Gedung Sasana Krida Universitas Negeri Malang
                 </span>
-                <div className="flex flex-col justify-center items-center text-center text-xs leading-tight">
+                <div className="flex flex-col justify-center items-center text-center text-xs leading-tight text-black">
                   <span>Jl. Veteran Sumbersari, Kec. Lowokwaru, Kota Malang</span>
                 </div>
                 <div className="flex items-center justify-center space-x-1 border-2 border-pink-400 bg-pink-400 hover:bg-pink-500 rounded-full px-1 py-1 cursor-pointer">

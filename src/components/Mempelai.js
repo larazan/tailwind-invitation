@@ -19,13 +19,13 @@ export default function Mempelai() {
         }}
       >
         <div className="min-h-screen py-16 w-full flex flex-col space-y-8 justify-center items-center">
-          <div className="relative flex flex-col space-y-7 p-10 justify-center items-center mx-auto max-w-4xl w-8/12 rounded-2xl bg-white shadow opacity-70">
+          <div className="relative flex flex-col space-y-7 p-10 justify-center items-center mx-auto max-w-4xl w-9/12 md:w-8/12 rounded-2xl bg-white shadow opacity-70">
             <div>
-              <span className="text-3xl text-center font-brittany">
+              <span className="text-3xl text-center font-brittany text-black">
                 Our wedding
               </span>
             </div>
-            <div className=" text-center">
+            <div className="text-black text-center">
               <span>
                 Tanpa mengurangi ras hormat, kami bermaksud mengundang
                 Bapak/ibu/Saudara/i untuk menghadiri acara pernikahan kami
@@ -43,10 +43,10 @@ export default function Mempelai() {
                 />
               </div>
               <div className="flex flex-col space-y-3 justify-center">
-                <span className="text-lg text-center font-brittany font-bold">
+                <span className="text-2xl md:text-lg text-center font-brittany font-bold text-black">
                   Anita Ramadani Rachmah
                 </span>
-                <div className="flex flex-col justify-center items-center text-xs leading-tight">
+                <div className="flex flex-col justify-center items-center text-sm md:text-xs leading-tight text-black">
                   <span>Putri dari</span>
                   <span>Bapak Fatkhur Rakhman</span>
                   <span>&</span>
@@ -56,15 +56,15 @@ export default function Mempelai() {
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-brand-instagram"
+                      className="icon icon-tabler icon-tabler-brand-instagram"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="currentColor"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                       <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
@@ -85,10 +85,10 @@ export default function Mempelai() {
                 />
               </div>
               <div className="flex flex-col space-y-3 justify-center">
-                <span className="text-lg text-center font-brittany font-bold">
+                <span className="text-2xl md:text-lg text-center font-brittany font-bold text-black">
                   Alfian Nurdiansyah
                 </span>
-                <div className="flex flex-col justify-center items-center text-xs leading-tight">
+                <div className="flex flex-col justify-center items-center text-sm md:text-xs leading-tight text-black">
                   <span>Putra dari</span>
                   <span>Bapak Turmuji</span>
                   <span>&</span>
@@ -98,15 +98,15 @@ export default function Mempelai() {
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-brand-instagram"
+                      className="icon icon-tabler icon-tabler-brand-instagram"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="currentColor"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                       <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
@@ -120,7 +120,7 @@ export default function Mempelai() {
             </div>
           </div>
 
-          <div className="relative flex p-8 justify-center2 items-center2 mx-auto2 max-w-4xl w-7/12 rounded-2xl bg-white shadow opacity-90">
+          <div className="relative flex p-8 justify-center2 items-center2 mx-auto2 max-w-4xl w-9/12 md:w-7/12 rounded-2xl bg-white shadow opacity-90">
             
             <div className="flex w-full justify-around text-center">
               <div className="flex flex-col space-y-1">
@@ -144,7 +144,7 @@ export default function Mempelai() {
                 <div className="flex py-2 space-x-1 items-center justify-center text-white">
                   
                   <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-heart" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-calendar-heart" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M11.5 21h-5.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"></path>
    <path d="M16 3v4"></path>
@@ -153,7 +153,7 @@ export default function Mempelai() {
    <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z"></path>
 </svg>
                   </span>
-                  <span className="font-semibold text-md">Simpan Tanggal</span>
+                  <span className="font-semibold text-sm md:text-md">Simpan Tanggal</span>
                 </div>
               </div>
           </div>
