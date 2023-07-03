@@ -30,11 +30,11 @@ export default function Preface() {
             </div>
             <div className="py-4 flex justify-center items-center pb-10">
               <div className="flex flex-col text-center space-y-3">
-                <span className="text-md font-light">
+                <span className="text-md font-light text-black">
                   We Invite You to the Wedding of
                 </span>
-                <span className="text-3xl font-brittany">Rahmah & Fian</span>
-                <span className="text-lg font-semibold">14 oktober 2023</span>
+                <span className="text-3xl font-brittany text-black">Rahmah & Fian</span>
+                <span className="text-lg font-semibold text-black">14 oktober 2023</span>
               </div>
             </div>
             <div className="">
