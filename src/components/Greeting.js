@@ -37,7 +37,7 @@ export default function Greeting() {
                   </div>
                 </div>
             </div>
-            <div className="hidden md:block absolute md:w-1/2 md:right-0 z-20 rounded-2xl  h-full shadow-lg shadow-blue-500/50 opacity-100">
+            <div className="hidden md:block absolute md:w-1/2 md:right-0  rounded-2xl  h-full shadow-lg shadow-blue-500/50 opacity-100">
               <Image src={prewed} alt="" className="rounded-2xl object-cover h-full " />
             </div>
           </div>

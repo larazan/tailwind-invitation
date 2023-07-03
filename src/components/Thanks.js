@@ -32,7 +32,7 @@ export default function Thanks() {
                 </div>
                 <div className="md:w-1/2"></div>
             </div>
-            <div className="hidden md:block absolute w-full md:w-1/2 right-0 z-20 rounded-2xl  h-full shadow-lg shadow-blue-500/50 opacity-100">
+            <div className="hidden md:block absolute w-full md:w-1/2 right-0  rounded-2xl  h-full shadow-lg shadow-blue-500/50 opacity-100">
               <Image src={galeri} alt="" className="rounded-2xl object-cover h-full " />
             </div>
           </div>
